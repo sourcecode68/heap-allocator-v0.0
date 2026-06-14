@@ -157,6 +157,7 @@ glibc:
 implicit free list:
 0.03 million ops/sec
 ```
+<img width="759" height="751" alt="image" src="https://github.com/user-attachments/assets/b07462bb-1af9-478a-8d09-d9b2ef661958" />
 
 This demonstrates the scalability limitations of heap-wide linear scans and motivates explicit free-list management.
 
@@ -178,3 +179,4 @@ This demonstrates the scalability limitations of heap-wide linear scans and moti
 ## Author
 
 Piyush Khanna
+
