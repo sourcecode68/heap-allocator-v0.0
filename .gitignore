@@ -1,0 +1,18 @@
+# Build output
+bin/
+build/
+
+# Object files
+*.o
+
+# Executables
+test_implicit
+test_explicit
+bench_*
+
+# Editor files
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
