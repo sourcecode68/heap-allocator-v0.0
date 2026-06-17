@@ -12,10 +12,10 @@
  *  Word offsets from mem_heap_lo():
  *
  *   +0   Alignment padding  (4 bytes, value = 0)
- *   +4   Prologue header    PACK(8, 1)  ← 8-byte block, allocated
- *   +8   Prologue footer    PACK(8, 1)  ← heap_listp points here
+ *   +4   Prologue header    PACK(8, 1)  <- 8-byte block, allocated
+ *   +8   Prologue footer    PACK(8, 1)  <- heap_listp points here
  *   +12  [  r e g u l a r   b l o c k s  ]
- *   +N   Epilogue header    PACK(0, 1)  ← sentinel, size = 0
+ *   +N   Epilogue header    PACK(0, 1)  <- sentinel, size = 0
  *
  * The 4-byte padding at offset 0 shifts every block payload to
  * an address that is ≡ 0 (mod 8): because the prologue footer
